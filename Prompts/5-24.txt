@@ -1,0 +1,28 @@
+Tengo una aplicación TaskIA que actualmente permite agregar y mostrar tareas.
+
+Este es mi código actual de js/app.js:
+
+[PEGAR APP.JS]
+
+Quiero agregar SOLAMENTE la funcionalidad para marcar y desmarcar una tarea como completada.
+
+REQUISITOS:
+
+- utilizar la propiedad completada que ya existe en cada tarea;
+- permitir cambiar entre true y false;
+- identificar correctamente la tarea mediante su id;
+- actualizar la interfaz después del cambio;
+- aplicar una clase CSS a las tareas completadas;
+- mantener funcionando agregarTarea() y renderizarTareas().
+
+No agregues todavía:
+
+- eliminar tareas;
+- contador;
+- localStorage.
+
+Evita reescribir funciones que no necesitan cambios.
+
+Primero dime qué partes del código modificarás.
+
+Después muestra el código necesario.

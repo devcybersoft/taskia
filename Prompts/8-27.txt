@@ -1,0 +1,33 @@
+TaskIA funciona correctamente mientras la página está abierta, pero al recargar el navegador las tareas desaparecen.
+
+Este es mi app.js actual:
+
+[PEGAR APP.JS]
+
+Quiero agregar persistencia utilizando localStorage.
+
+REQUISITOS:
+
+- utilizar la clave "taskia_data";
+- guardar el arreglo tareas cada vez que cambie;
+- recuperar las tareas cuando inicia la aplicación;
+- utilizar JSON.stringify() para guardar;
+- utilizar JSON.parse() para recuperar;
+- si todavía no existen datos guardados, iniciar con un arreglo vacío;
+- mantener funcionando todas las características actuales.
+
+Crea o utiliza las funciones:
+
+guardarTareas()
+cargarTareas()
+
+No reconstruyas toda la aplicación.
+
+Primero explícame:
+
+1. por qué localStorage solamente almacena texto;
+2. para qué sirve JSON.stringify();
+3. para qué sirve JSON.parse();
+4. en qué momentos debemos llamar guardarTareas().
+
+Después muestra únicamente los cambios necesarios.

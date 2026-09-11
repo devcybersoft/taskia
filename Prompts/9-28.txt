@@ -1,0 +1,24 @@
+Estoy depurando una aplicación web desarrollada con HTML, CSS y JavaScript puro.
+
+En la consola del navegador aparece este error:
+
+[PEGAR AQUÍ EL ERROR EXACTO]
+
+El fragmento relacionado de mi archivo app.js es:
+
+[PEGAR AQUÍ ENTRE 10 Y 20 LÍNEAS ALREDEDOR DEL ERROR]
+
+No quiero que reescribas toda la aplicación.
+
+Necesito que actúes como debugger.
+
+Analiza el problema siguiendo este orden:
+
+1. Explica en lenguaje sencillo qué significa exactamente el error.
+2. Identifica las causas más probables.
+3. Indica qué elemento o selector debo revisar en mi HTML.
+4. Indica qué parte debo revisar en JavaScript.
+5. Propón la corrección mínima.
+6. Explica por qué esa corrección soluciona el problema.
+
+No generes una aplicación nueva.

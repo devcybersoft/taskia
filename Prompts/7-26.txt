@@ -1,0 +1,29 @@
+TaskIA ya permite:
+
+- agregar tareas;
+- completar tareas;
+- eliminar tareas.
+
+Este es mi código actual:
+
+[PEGAR APP.JS]
+
+Ahora quiero implementar el contador de tareas pendientes.
+
+REQUISITOS:
+
+- contar únicamente las tareas cuya propiedad completada sea false;
+- mostrar el resultado en el elemento del HTML destinado al contador;
+- actualizar el contador cuando:
+  - se agrega una tarea;
+  - se completa una tarea;
+  - se desmarca una tarea;
+  - se elimina una tarea.
+
+Crea una función actualizarContador().
+
+Evita duplicar lógica.
+
+No agregues todavía localStorage.
+
+Explícame en qué puntos debe llamarse actualizarContador() y después muestra los cambios.

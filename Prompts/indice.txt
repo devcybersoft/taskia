@@ -1,0 +1,16 @@
+Hoja rápida 
+
+
+Diapositiva	Acción	Prompt
+14	Demostración	“Crea una aplicación web para administrar tareas.”
+16	HTML	        Prompt 1
+19	CSS	            Prompt 2
+19	Refinamiento	Prompt 3
+23	Agregar tarea	Prompt 4
+24  Completar    	Prompt 5
+25	Eliminar	    Prompt 6
+26	Contador	    Prompt 7
+27	Persistencia	Prompt 8
+30	Debugging	    Prompt 9
+34	README	        Prompt 10
+39	Evolución	    Prompt 11

@@ -1,0 +1,43 @@
+Actúa como desarrollador JavaScript frontend.
+
+Estoy desarrollando TaskIA utilizando HTML, CSS y JavaScript puro.
+
+Este es mi HTML actual:
+
+[PEGAR INDEX.HTML]
+
+Mi archivo js/app.js actualmente está vacío.
+
+Quiero implementar SOLAMENTE la funcionalidad para agregar tareas.
+
+REQUISITOS:
+
+- almacenar temporalmente las tareas en un arreglo llamado tareas;
+- cada tarea debe tener un id;
+- cada tarea debe tener un texto;
+- cada tarea debe tener una propiedad completada inicialmente en false;
+- impedir agregar tareas vacías;
+- capturar el evento submit del formulario;
+- evitar que el formulario recargue la página;
+- crear una función agregarTarea();
+- crear una función renderizarTareas();
+- después de agregar una tarea debe actualizarse la lista;
+- limpiar el input después de registrar;
+- devolver el foco al input.
+
+IMPORTANTE:
+
+Todavía NO implementes:
+
+- eliminar tareas;
+- completar tareas;
+- contador;
+- localStorage.
+
+No reescribas mi HTML.
+
+Primero explica brevemente el flujo:
+
+Usuario → Evento → Función → Arreglo → Renderizado.
+
+Después entrega el contenido completo de js/app.js.

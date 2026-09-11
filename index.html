@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TaskIA - Administrador de tareas</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/app.js" defer></script>
+</head>
+<body>
+	<header id="app-header">
+		<h1>TaskIA</h1>
+		<p>Un administrador de tareas sencillo para organizar tus actividades.</p>
+	</header>
+
+	<main id="app-main">
+		<section id="task-form-section" aria-labelledby="task-form-title">
+			<h2 id="task-form-title">Registrar nueva tarea</h2>
+
+			<form id="task-form">
+				<label for="task-input">Descripción de la tarea</label>
+				<input
+					type="text"
+					id="task-input"
+					name="task"
+					placeholder="Escribe una tarea"
+					required
+				>
+				<button type="submit" id="add-task-button">Agregar tarea</button>
+			</form>
+		</section>
+
+		<section id="task-list-section" aria-labelledby="task-list-title">
+			<h2 id="task-list-title">Mis tareas</h2>
+
+			<p>
+				Tareas pendientes:
+				<span id="pending-tasks-count">0</span>
+			</p>
+
+			<ul id="task-list">
+				<!-- Las tareas se mostrarán aquí posteriormente -->
+			</ul>
+		</section>
+	</main>
+</body>
+</html>

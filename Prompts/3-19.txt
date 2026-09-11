@@ -1,0 +1,16 @@
+El diseño funciona correctamente.
+
+Ahora quiero refinarlo sin reconstruir todo el archivo.
+
+Realiza únicamente estos ajustes:
+
+- reduce ligeramente los espacios verticales;
+- aumenta la jerarquía visual del botón principal;
+- mejora la visualización del formulario en teléfonos;
+- prepara una clase visual para tareas completadas utilizando texto tachado y menor énfasis visual.
+
+No modifiques estilos que no sea necesario cambiar.
+
+Explícame primero qué selectores modificarás.
+
+Después muestra únicamente las reglas CSS nuevas o modificadas.

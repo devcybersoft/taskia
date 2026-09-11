@@ -1,0 +1,39 @@
+Estoy documentando un proyecto universitario llamado TaskIA.
+
+La aplicación fue desarrollada con:
+
+- HTML5;
+- CSS3;
+- JavaScript;
+- localStorage;
+- Git;
+- GitHub;
+- GitHub Pages.
+
+Sus funcionalidades actuales son:
+
+- agregar tareas;
+- marcar tareas completadas;
+- eliminar tareas;
+- mostrar contador de pendientes;
+- conservar información mediante localStorage.
+
+Genera un README.md breve y profesional.
+
+Debe contener únicamente:
+
+# TaskIA
+
+Descripción
+
+## Funcionalidades
+
+## Tecnologías
+
+## Ejecución local
+
+## Publicación
+
+No inventes funcionalidades que no he mencionado.
+
+Entrega únicamente Markdown.

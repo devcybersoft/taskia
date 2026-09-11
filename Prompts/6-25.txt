@@ -1,0 +1,27 @@
+Mi aplicación TaskIA actualmente permite:
+
+- agregar tareas;
+- mostrar tareas;
+- completar y desmarcar tareas.
+
+Este es mi app.js actual:
+
+[PEGAR APP.JS]
+
+Quiero agregar únicamente la funcionalidad para eliminar tareas.
+
+REQUISITOS:
+
+- cada tarea debe mostrar un botón Eliminar;
+- el botón debe identificar la tarea por su id;
+- debe eliminarse únicamente la tarea seleccionada;
+- después de eliminarla debe actualizarse la interfaz;
+- las funcionalidades existentes deben seguir funcionando.
+
+No implementes todavía localStorage.
+
+No reescribas innecesariamente el proyecto.
+
+Explica primero qué función agregarás o modificarás.
+
+Después muestra los cambios necesarios.

@@ -1,0 +1,38 @@
+Actúa como desarrollador frontend especializado en CSS moderno.
+
+Estoy desarrollando TaskIA, una aplicación web sencilla para administrar tareas.
+
+Este es mi archivo index.html:
+
+[PEGAR AQUÍ INDEX.HTML]
+
+Genera el archivo css/styles.css.
+
+REQUISITOS DE DISEÑO:
+
+- interfaz moderna y limpia;
+- tema visual oscuro;
+- aplicación centrada horizontalmente;
+- contenedor principal con un ancho máximo aproximado de 540 px;
+- buena separación entre elementos;
+- formulario claro y fácil de utilizar;
+- botón Agregar tarea con mayor jerarquía visual;
+- diseño preparado para una lista de tareas;
+- estilo diferente para tareas completadas;
+- botones secundarios menos llamativos;
+- efectos hover discretos;
+- tipografía del sistema;
+- diseño completamente responsive;
+- buena visualización en teléfonos.
+
+RESTRICCIONES:
+
+- No utilices Bootstrap.
+- No utilices Tailwind.
+- No utilices librerías externas.
+- No modifiques el HTML.
+- No utilices estilos inline.
+
+SALIDA:
+
+Entrega únicamente el contenido completo de css/styles.css.

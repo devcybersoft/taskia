@@ -1,0 +1,44 @@
+Actúa como desarrollador frontend especializado en HTML5 semántico.
+
+Estoy desarrollando una aplicación web llamada TaskIA para administrar tareas.
+
+Por ahora necesito únicamente construir la estructura HTML de la aplicación.
+
+REQUISITOS:
+
+La página debe incluir:
+
+- encabezado con el nombre TaskIA;
+- un texto breve que explique que es un administrador de tareas;
+- un formulario para registrar una nueva tarea;
+- un campo de texto para escribir la tarea;
+- un botón con el texto "Agregar tarea";
+- una sección donde posteriormente se mostrarán las tareas;
+- un elemento para mostrar el número de tareas pendientes.
+
+ESTRUCTURA DEL PROYECTO:
+
+taskia/
+├── index.html
+├── css/
+│   └── styles.css
+└── js/
+    └── app.js
+
+RESTRICCIONES:
+
+- Utiliza HTML5 semántico.
+- No utilices Bootstrap.
+- No utilices Tailwind.
+- No utilices React ni ningún framework.
+- No escribas CSS dentro del HTML.
+- No escribas JavaScript dentro del HTML.
+- Vincula correctamente css/styles.css.
+- Vincula correctamente js/app.js.
+- Utiliza identificadores claros que después puedan utilizarse desde JavaScript.
+
+SALIDA:
+
+Primero explica brevemente la estructura que propones.
+
+Después entrega únicamente el contenido completo de index.html.

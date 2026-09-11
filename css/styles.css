@@ -1,0 +1,226 @@
+:root {
+	color-scheme: dark;
+	--color-background: #111827;
+	--color-surface: #1f2937;
+	--color-surface-raised: #273449;
+	--color-border: #374151;
+	--color-text: #f3f4f6;
+	--color-text-muted: #9ca3af;
+	--color-accent: #38bdf8;
+	--color-accent-hover: #7dd3fc;
+	--color-accent-contrast: #082f49;
+	--color-success: #86efac;
+	--radius: 10px;
+	--shadow: 0 18px 45px rgb(0 0 0 / 25%);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	padding: 36px 20px;
+	background: var(--color-background);
+	color: var(--color-text);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	line-height: 1.5;
+}
+
+#app-header,
+#app-main {
+	width: min(100%, 540px);
+	margin-inline: auto;
+}
+
+#app-header {
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+#app-header h1 {
+	margin: 0 0 8px;
+	font-size: clamp(2rem, 8vw, 2.75rem);
+	line-height: 1.1;
+	letter-spacing: -0.02em;
+}
+
+#app-header p {
+	max-width: 38rem;
+	margin: 0 auto;
+	color: var(--color-text-muted);
+}
+
+#app-main {
+	display: grid;
+	gap: 16px;
+}
+
+#task-form-section,
+#task-list-section {
+	padding: 20px;
+	border: 1px solid var(--color-border);
+	border-radius: var(--radius);
+	background: var(--color-surface);
+	box-shadow: var(--shadow);
+}
+
+h2 {
+	margin: 0 0 16px;
+	font-size: 1.15rem;
+	line-height: 1.3;
+}
+
+#task-form {
+	display: grid;
+	gap: 8px;
+}
+
+label {
+	color: var(--color-text-muted);
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+input[type="text"] {
+	width: 100%;
+	min-height: 46px;
+	padding: 10px 13px;
+	border: 1px solid var(--color-border);
+	border-radius: 8px;
+	background: var(--color-background);
+	color: var(--color-text);
+	font: inherit;
+	outline: none;
+	transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+input[type="text"]::placeholder {
+	color: #6b7280;
+}
+
+input[type="text"]:focus {
+	border-color: var(--color-accent);
+	box-shadow: 0 0 0 3px rgb(56 189 248 / 18%);
+}
+
+button {
+	min-height: 44px;
+	padding: 10px 16px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	font: inherit;
+	font-weight: 700;
+	cursor: pointer;
+	transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+button:focus-visible,
+input[type="text"]:focus-visible {
+	outline: 3px solid rgb(56 189 248 / 40%);
+	outline-offset: 2px;
+}
+
+#add-task-button {
+	min-height: 48px;
+	margin-top: 6px;
+	padding-inline: 20px;
+	background: var(--color-accent);
+	color: var(--color-accent-contrast);
+	font-size: 1.02rem;
+	box-shadow: 0 6px 16px rgb(56 189 248 / 18%);
+}
+
+#add-task-button:hover {
+	background: var(--color-accent-hover);
+	transform: translateY(-1px);
+}
+
+#task-list-section > p {
+	display: flex;
+	justify-content: space-between;
+	gap: 12px;
+	margin: -6px 0 18px;
+	color: var(--color-text-muted);
+}
+
+#pending-tasks-count {
+	color: var(--color-text);
+	font-weight: 700;
+}
+
+#task-list {
+	display: grid;
+	gap: 10px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#task-list li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	min-height: 52px;
+	padding: 12px 14px;
+	border: 1px solid var(--color-border);
+	border-radius: 8px;
+	background: var(--color-surface-raised);
+}
+
+#task-list li.completed {
+	color: var(--color-text-muted);
+	text-decoration: line-through;
+	opacity: 0.58;
+	background: var(--color-surface);
+}
+
+#task-list li.completed::before {
+	color: var(--color-success);
+}
+
+#task-list button {
+	min-height: 34px;
+	padding: 6px 10px;
+	border-color: var(--color-border);
+	background: transparent;
+	color: var(--color-text-muted);
+	font-size: 0.85rem;
+	font-weight: 600;
+}
+
+#task-list button:hover {
+	border-color: var(--color-accent);
+	color: var(--color-accent-hover);
+}
+
+@media (max-width: 480px) {
+	body {
+		padding: 28px 14px;
+	}
+
+	#app-header {
+		margin-bottom: 20px;
+	}
+
+	#task-form-section,
+	#task-list-section {
+		padding: 18px 16px;
+	}
+
+	#add-task-button {
+		width: 100%;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		scroll-behavior: auto !important;
+		transition-duration: 0.01ms !important;
+		animation-duration: 0.01ms !important;
+	}
+}

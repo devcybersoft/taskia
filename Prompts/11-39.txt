@@ -1,0 +1,26 @@
+Tengo una aplicación web existente llamada TaskIA desarrollada únicamente con HTML, CSS y JavaScript puro.
+
+Actualmente funciona correctamente.
+
+Quiero agregar esta nueva característica:
+
+[ESCRIBIR AQUÍ LA CARACTERÍSTICA]
+
+Mi código actual es:
+
+[PEGAR ÚNICAMENTE LOS ARCHIVOS O FUNCIONES NECESARIOS]
+
+IMPORTANTE:
+
+No quiero que reconstruyas toda la aplicación.
+
+Antes de escribir código:
+
+1. analiza qué archivo o archivos deben modificarse;
+2. identifica qué funciones actuales se relacionan con la nueva característica;
+3. explica qué cambios mínimos realizarías;
+4. indica si será necesario agregar alguna función nueva.
+
+Después muestra únicamente las modificaciones necesarias.
+
+Conserva todas las funcionalidades existentes.
